@@ -5,7 +5,6 @@
 body {
   font-family:'Courier New', sans-serif !important;
   background-color: rgba(37, 165, 101, 1) !important;
-  color: rgba(255, 255, 255, 1);
 }
 
 a {
@@ -29,8 +28,15 @@ a {
   align: center;
 }
 
-div .landing {
+#landing {
   height: 100vh;
+  background-color: rgba(37, 165, 101, 1) !important;
+  color: rgba(255, 255, 255, 1);
+}
+
+#body {
+  background-color: rgba(255, 255, 255, 1) !important;
+  color: rgba(0, 0, 0, 1);
 }
 
 .big {
